@@ -1004,30 +1004,6 @@ footer {
     color: white;
 }
 
-.social-icons {
-    display: flex;
-    gap: 12px;
-    margin-top: 15px;
-}
-
-.social-icon {
-    width: 24px;
-    height: 24px;
-    background-color: #666;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    transition: background-color 0.3s;
-}
-
-.social-icon:hover {
-    background-color: #888;
-}
-
 .footer-bottom {
     border-top: 1px solid #666;
     padding: 15px 0;
