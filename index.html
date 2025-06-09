@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLAR</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navigation">
+        <nav class="nav">
+            <a href="index.html" class="logo">POLAR</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="studios.html">Studios</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="form.html" class="contact-btn">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="main-heading">
+                <div class="text-wrapper">
+                    <div class="animated-line">
+                        <span class="static-text">LEVEL UP YOUR&nbsp;</span>
+                        <span id="dynamic-word">GAME DEV</span>
+                    </div>
+                    <span class="sub-text">WITH POLAR LAB</span>
+                </div>
+            </div>
+            <div class="hero-btn-container">
+                <a href="#introduction" class="hero-btn">Get To Know Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Introduction Section-->
+    <section class="introduction" id="introduction">
+        <div class="intro-text">
+            <h1>Media Production Lab and Teaching Factory Network by Universitas Indonesia</h1>
+            <p class="subtitle">Enabling students to work like real professionals through studio-based collaboration, client handling, and innovation in media, tech, and design. Through POLAR, we connect academic excellence with real-world impact—delivering fresh ideas, agile execution, and creative solutions tailored for today’s media and technology landscape.</p>
+            <a href="form.html" class="cta-intro-btn">
+                Work With Us
+                <span class="arrow">→</span>
+            </a>
+        </div>
+
+        <div class="logo-section">
+            <img src="assets/logo.png" alt="Logo Polar" class="logo">
+        </div>
+    </section>
+
+    <!-- Logo Studio -->
+     <section class="studio-section" id="studio">
+        <div class="studio-label">
+            Media studios under <br>POLAR LAB
+        </div>
+        <div class="studio-logos-wrapper">
+            <div class="studio-logos">
+                <img src="assets/logo studio/flui.png" alt="Flui">
+                <img src="assets/logo studio/icon.png" alt="Icon">
+                <img src="assets/logo studio/mosaic.png" alt="Mosaic">
+                <img src="assets/logo studio/mvp.png" alt="MVP">
+                <img src="assets/logo studio/orfil.png" alt="Orfil">
+                <img src="assets/logo studio/ox.png" alt="Ox">
+                <img src="assets/logo studio/pipa.png" alt="Pipa">
+                <img src="assets/logo studio/poko.png" alt="Poko">
+                <img src="assets/logo studio/spice.png" alt="Spice">
+                <img src="assets/logo studio/vote.png" alt="Vote">
+                <img src="assets/logo studio/wire.png" alt="Wire">
+
+                <!-- Duplikat untuk scroll seamless -->
+                <img src="assets/logo studio/flui.png" alt="Flui">
+                <img src="assets/logo studio/icon.png" alt="Icon">
+                <img src="assets/logo studio/mosaic.png" alt="Mosaic">
+                <img src="assets/logo studio/mvp.png" alt="MVP">
+                <img src="assets/logo studio/orfil.png" alt="Orfil">
+                <img src="assets/logo studio/ox.png" alt="Ox">
+                <img src="assets/logo studio/pipa.png" alt="Pipa">
+                <img src="assets/logo studio/poko.png" alt="Poko">
+                <img src="assets/logo studio/spice.png" alt="Spice">
+                <img src="assets/logo studio/vote.png" alt="Vote">
+                <img src="assets/logo studio/wire.png" alt="Wire">
+            </div>
+        </div>
+        </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="projects-container">
+            <div class="projects-label">
+                <h1 class="projects-title">Our Projects</h1>
+                <p class="projects-subtitle">At the intersection of storytelling and innovation, our studios empower students to craft solutions that matter. By blending fresh perspectives with professional guidance, we deliver impactful media, tech, and design outcomes.</p>
+            </div>
+                    
+            <div class="carousel-container">
+                <div class="carousel" id="carousel">
+                    <div class="project-card active">
+                        <img src="assets/photo/photo3.png" alt="project1" class="project-image">
+                    </div>
+                        
+                    <div class="project-card next">
+                        <img src="assets/photo/photo4.png" alt="project2" class="project-image">
+                    </div>
+                        
+                    <div class="project-card hidden">
+                        <img src="assets/photo/photo7.png" alt="project3" class="project-image">
+                    </div>
+                        
+                    <div class="project-card hidden">
+                        <img src="assets/photo/photo5.png" alt="project4" class="project-image">
+                    </div>
+
+                    <div class="project-card hidden">
+                        <img src="assets/photo/photo6.png" alt="project4" class="project-image">
+                    </div>
+                        
+                    <div class="project-card hidden"></div>
+                </div>
+                    
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="prevBtn">←</button>
+                    <button class="carousel-btn" id="nextBtn">→</button>
+                </div>
+            </div>
+                
+            <div class="carousel-dots" id="carouselDots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+                <span class="dot" data-slide="4"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section" id="teams">
+        <div class="team-label">
+            <h1>Meet The Team</h1>
+            <p>Get to know the passionate minds behind our projects. Each team member brings unique expertise and creativity to drive innovation in media and technology.</p>
+        </div>
+
+        <div class="team-container">
+            <div class="team-card">
+                <ul class="studios-list">
+                    <li><button onclick="goToStudio('flui-media')">FLUI Media</button></li>
+                    <li><button onclick="goToStudio('icon')">ICON</button></li>
+                    <li><button onclick="goToStudio('kuls-creative')">KULS Creative</button></li>
+                    <li><button onclick="goToStudio('mosaic')">Mosaic</button></li>
+                    <li><button onclick="goToStudio('mvp-esports')">MVP Esports</button></li>
+                    <li><button onclick="goToStudio('vote')">VOTE</button></li>
+                </ul>
+                <div class="role-title">PROJECT MANAGERS</div>
+            </div>
+
+            <div class="team-card">
+                <ul class="studios-list">
+                    <li><button onclick="goToStudio('pixel-pals')">Pixel Pals</button></li>
+                    <li><button onclick="goToStudio('pojok-komik')">Pojok Komik</button></li>
+                </ul>
+                <div class="role-title">DESIGNERS</div>
+            </div>
+
+            <div class="team-card">
+                <ul class="studios-list">
+                    <li><button onclick="goToStudio('orang-film')">Orang Film</button></li>
+                    <li><button onclick="goToStudio('ox-lab')">OX Lab</button></li>
+                    <li><button onclick="goToStudio('spice-studio')">SPICE Studio</button></li>
+                    <li><button onclick="goToStudio('wire-studio')">Wire Studio</button></li>
+                </ul>
+                <div class="role-title">ENGINEERS</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Learn From Experts Section -->
+    <section class="lecturers-section">
+        <div class="lecturers-label">
+            <h1>Learn From Experts</h1>
+            <p>Behind every POLAR Lab studio, there's a guiding expert — a lecturer deeply involved in the 
+                industry. It's not just about passing knowledge, but about mentoring through experience.
+            </p>
+        </div>
+
+        <div class="lecturers-container">
+            <div class="lecturer-card">
+                <div class="lecturer-image">
+                    <span>DR</span>
+                </div>
+                <div class="lecturer-name">Dr. Sarah Chen</div>
+                <div class="lecturer-title">AI Research Director</div>
+            </div>
+
+            <div class="lecturer-card">
+                <div class="lecturer-image">
+                    <span>MS</span>
+                </div>
+                <div class="lecturer-name">Maria Santos</div>
+                <div class="lecturer-title">UX Design Lead</div>
+            </div>
+
+            <div class="lecturer-card">
+                <div class="lecturer-image">
+                    <span>AK</span>
+                </div>
+                <div class="lecturer-name">Alex Kumar</div>
+                <div class="lecturer-title">Data Science Specialist</div>
+            </div>
+
+            <div class="lecturer-card">
+                <div class="lecturer-image">
+                    <span>EM</span>
+                </div>
+                <div class="lecturer-name">Emily Miller</div>
+                <div class="lecturer-title">Product Strategy Consultant</div>
+            </div>
+        </div>
+
+        <div class="lecturers-btn">
+            <a href="#" class="lecturers-link-btn">
+                See More
+                <span class="lecturers-arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- POLAR Insight Section -->
+    <section class="insight-section">
+        <div class="insight-label">
+            <h1>POLAR Insight</h1>
+            <p>Discover our thoughts, findings, and reflections on the ever-evolving landscape of media, design, and technology.</p>
+        </div>
+
+        <div class="insight-container">
+            <article class="insight-card">
+                <div class="insight-image"></div>
+                <div class="insight-content">
+                    <h2 class="insight-title">How UX Designers and System Analyst Orchestrate Effective Solution</h2>  
+                </div>
+            </article>
+
+            <article class="insight-card">
+                <div class="insight-image"></div>
+                <div class="insight-content">
+                    <h2 class="insight-title">What is an SEO specialist? Essential Roles adn Responsibilities</h2>                    
+                </div>
+            </article>
+
+            <article class="insight-card">
+                <div class="insight-image"></div>
+                <div class="insight-content">
+                    <h2 class="insight-title">Are Low-Code and No-Code the Future of Development?</h2>
+                </div>
+            </article>
+        </div>
+
+        <div class="insight-btn">
+            <a href="#" class="insight-link-btn">
+                See More
+                <span class="insight-arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Kindly CTA -->
+    <section class="end-cta-section">
+        <p class="end-cta-text">We're just one message away from an awesome collaboration. Let's connect and co-create!</p>
+        <a href="form.html" class="end-cta-btn">Talk To Us →</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>We are dedicated to building a creative community where students lead, collaborate, and make real impact through media and technology.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <div>polarlab_ui@ui.ac.id</div>
+                <div>+62 123 4567 890</div>
+                <div style="margin-top: 15px;">
+                    Business Centre FL 2-Creative Studio, Vokasi UI 16424
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <p>Stay updated with ourlatest projects and initiatives through our social media!</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"></a>
+                    <a href="#" class="social-icon"></a>
+                    <a href="#" class="social-icon"></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <div class="nav-menu">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#studios">Studios</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#insight">Insight</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 Media Production Laboratory. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

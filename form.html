@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLAR</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navigation">
+        <nav class="nav">
+            <a href="index.html" class="logo">POLAR</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="studios.html">Studios</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="form.html" class="contact-btn">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Content -->
+    <section class="hero-section" id="hero">
+        <div class="hero-label">
+            <h1>We’re always open for collaborations, fresh projects, or just a friendly chat over coffee  ☕</h1>
+        </div>
+
+        <div class="hero-btn-container">
+                <a href="#form" class="hero-btn">Let's Talk</a>
+        </div>
+
+        <div class="hero-contact-container">
+            <div class="hero-contact">
+                <p>EMAIL<br><a href="#">hi@polarlab.com</a></p>
+            </div>
+            <div class="hero-contact">
+                <p>WHATSAPP<br><a href="#">+62 123 4567 890</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Form -->
+    <section class="form-section" id="form">
+        <div class="form-label">
+            <h1>Drop Words</h1>
+            <p>Please complete the form below to proceed.</p>
+        </div>
+
+        <div class="form-container">
+            <form class="contact-form" id="projectForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="organization">Organization/Company</label>
+                        <input type="text" id="organization" name="organization">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="project-type">Project Type *</label>
+                    <select id="project-type" name="project-type" required>
+                        <option value="">Select a category</option>
+                        <option value="animation">Animation & Interactive Design</option>
+                        <option value="comics">Comics & Cartoons</option>
+                        <option value="toy-design">Toy & Product Design</option>
+                        <option value="fashion">Fashion & Lifestyle</option>
+                        <option value="music">Music Production & Audio</option>
+                        <option value="gaming">Game Development</option>
+                        <option value="tech">UI/UX & Creative Technology</option>
+                        <option value="esports">Esports & Gaming Content</option>
+                        <option value="media-strategy">Media Strategy & Analytics</option>
+                        <option value="ip-management">IP Management & Conversion</option>
+                        <option value="advertising">Advertising & Marketing</option>
+                        <option value="journalism">Journalism & Media Ethics</option>
+                        <option value="film">Film Production</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="project-title">Project Title *</label>
+                    <input type="text" id="project-title" name="project-title" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="project-description">Project Description *</label>
+                    <textarea id="project-description" name="project-description" placeholder="Please provide a detailed description of your project, including objectives, target audience, and any specific requirements..." required></textarea>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="budget">Budget Range</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select budget range</option>
+                            <option value="under-5m">Under Rp 5,000,000</option>
+                            <option value="5m-15m">Rp 5,000,000 - 15,000,000</option>
+                            <option value="15m-50m">Rp 15,000,000 - 50,000,000</option>
+                            <option value="50m-100m">Rp 50,000,000 - 100,000,000</option>
+                            <option value="over-100m">Over Rp 100,000,000</option>
+                            <option value="discuss">To be discussed</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="timeline">Preferred Timeline</label>
+                        <select id="timeline" name="timeline">
+                            <option value="">Select timeline</option>
+                            <option value="urgent">Urgent (1-2 weeks)</option>
+                            <option value="short">Short-term (3-4 weeks)</option>
+                            <option value="medium">Medium-term (1-3 months)</option>
+                            <option value="long">Long-term (3+ months)</option>
+                            <option value="flexible">Flexible</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="additional-info">Additional Information</label>
+                    <textarea id="additional-info" name="additional-info" placeholder="Any additional details, specific requirements, or questions you'd like to share with us..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Submit Project Brief</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>We are dedicated to building a creative community where students lead, collaborate, and make real impact through media and technology.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <div>polarlab_ui@ui.ac.id</div>
+                <div>+62 123 4567 890</div>
+                <div style="margin-top: 15px;">
+                    Business Centre FL 2-Creative Studio, Vokasi UI 16424
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <p>Stay updated with ourlatest projects and initiatives through our social media!</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"></a>
+                    <a href="#" class="social-icon"></a>
+                    <a href="#" class="social-icon"></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <div class="nav-menu">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#studios">Studios</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#insight">Insight</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 Media Production Laboratory. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="form.js"></script>
+</body>
+</html>
